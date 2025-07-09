@@ -1,9 +1,8 @@
 import React from 'react';
-import BlogDescription from './BlogDescription';
+import BlogDescription from './BlogDescription.jsx';
 import Image from 'next/image';
 import Link from 'next/link';
-import path from 'path';
-import fs from 'fs';
+
 
 
 

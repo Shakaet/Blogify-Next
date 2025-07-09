@@ -1,10 +1,10 @@
 import Image from "next/image";
-import MobileMenu from "./component/MobileMenu";
-import Filtering from "./component/filtering";
+import MobileMenu from "./component/MobileMenu.jsx";
+import Filtering from "./component/filtering.jsx";
 import fs from 'fs';
 import path from 'path';
-import AllData from "./component/AllData";
-import SortSelect from "./component/SortSelect";
+import AllData from "./component/AllData.jsx";
+import SortSelect from "./component/SortSelect.jsx";
 
 
 
