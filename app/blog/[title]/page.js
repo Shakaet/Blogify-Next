@@ -13,7 +13,7 @@ const page = ({params}) => {
     
 
     let {title}=params
-    console.log(title)
+    // console.log(title)
     const decodedTitle = decodeURIComponent(title);
     // console.log(blogs.length)
 
@@ -21,7 +21,7 @@ const page = ({params}) => {
   let specificData = blogs.find((data) => data.title === decodeURIComponent(title));
 
 
-   console.log(specificData.title)
+  //  console.log(specificData.title)
 
 
     
