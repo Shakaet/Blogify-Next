@@ -1,6 +1,6 @@
 import Image from "next/image";
 import MobileMenu from "./component/MobileMenu.jsx";
-import Filtering from "./component/filtering.jsx";
+import Filtering from "./component/Filtering.jsx";
 import fs from 'fs';
 import path from 'path';
 import AllData from "./component/AllData.jsx";
