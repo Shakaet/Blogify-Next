@@ -39,6 +39,27 @@ Blogify is a sleek, modern, and lightning-fast blog platform built using **Next.
 
 ## 📁 Folder Structure
 
+```bash
+📦app/
+├── 📁blog/
+│   └── 📄[title]/page.js          # Dynamic blog post page
+├── 📁component/
+│   ├── 📄AllData.jsx              # Renders all blog data/cards
+│   ├── 📄BlogDescription.jsx      # Displays full blog content
+│   ├── 📄Filtering.jsx            # Category or tag filtering UI
+│   ├── 📄MobileMenu.jsx           # Responsive navigation menu
+│   └── 📄SortSelect.jsx           # Sorting dropdown or logic
+├── 📄globals.css                  # Global Tailwind CSS styles
+├── 📄layout.js                    # Common layout (e.g. header/footer)
+└── 📄page.js                      # Home page with blog list
+
+📦public/                          # Static files like images
+
+📄next.config.js                   # Next.js configuration
+📄package.json                     # Dependencies and scripts
+📄README.md                        # Project documentation
+
+
 
 ```bash
 📦app/
