@@ -92,7 +92,7 @@ const page = ({params}) => {
                                             <span className="text-sm font-medium">Sumit Saha</span>
                                         </div>
                                         <h2 className="text-xl font-bold mb-2 hover:underline cursor-pointer">The Ultimate
-                                            Guide to Tailwind CSS v4: What's New and Improved</h2>
+                                            Guide to Tailwind CSS v4: Whats New and Improved</h2>
                                         <p className="text-gray-700 mb-4">Discover the latest features and improvements in
                                             Tailwind CSS v4 and how they can enhance your web development workflow.</p>
                                         <div className="flex justify-between items-center">
@@ -119,7 +119,7 @@ const page = ({params}) => {
                                             <span className="text-sm font-medium">Sumit Saha</span>
                                         </div>
                                         <h2 className="text-xl font-bold mb-2 hover:underline cursor-pointer">The Ultimate
-                                            Guide to Tailwind CSS v4: What's New and Improved</h2>
+                                            Guide to Tailwind CSS v4: Whats New and Improved</h2>
                                         <p className="text-gray-700 mb-4">Discover the latest features and improvements in
                                             Tailwind CSS v4 and how they can enhance your web development workflow.</p>
                                         <div className="flex justify-between items-center">
@@ -146,7 +146,7 @@ const page = ({params}) => {
                                             <span className="text-sm font-medium">Sumit Saha</span>
                                         </div>
                                         <h2 className="text-xl font-bold mb-2 hover:underline cursor-pointer">The Ultimate
-                                            Guide to Tailwind CSS v4: What's New and Improved</h2>
+                                            Guide to Tailwind CSS v4: Whats New and Improved</h2>
                                         <p className="text-gray-700 mb-4">Discover the latest features and improvements in
                                             Tailwind CSS v4 and how they can enhance your web development workflow.</p>
                                         <div className="flex justify-between items-center">
@@ -173,7 +173,7 @@ const page = ({params}) => {
                                             <span className="text-sm font-medium">Sumit Saha</span>
                                         </div>
                                         <h2 className="text-xl font-bold mb-2 hover:underline cursor-pointer">The Ultimate
-                                            Guide to Tailwind CSS v4: What's New and Improved</h2>
+                                            Guide to Tailwind CSS v4: Whats New and Improved</h2>
                                         <p className="text-gray-700 mb-4">Discover the latest features and improvements in
                                             Tailwind CSS v4 and how they can enhance your web development workflow.</p>
                                         <div className="flex justify-between items-center">
