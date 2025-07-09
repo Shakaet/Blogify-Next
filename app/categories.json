@@ -1,0 +1,17 @@
+[
+  { "id": 1, "name": "Web Development" },
+  { "id": 2, "name": "Data Science" },
+  { "id": 3, "name": "Self Improvement" },
+  { "id": 4, "name": "Technology" },
+  { "id": 5, "name": "Machine Learning" },
+  { "id": 6, "name": "Writing" },
+  { "id": 7, "name": "Photography" },
+  { "id": 8, "name": "Finance" },
+  { "id": 9, "name": "Cooking" },
+  { "id": 10, "name": "Fitness" },
+  { "id": 11, "name": "Marketing" },
+  { "id": 12, "name": "Gardening" },
+  { "id": 13, "name": "Design" },
+  { "id": 14, "name": "Music" },
+  { "id": 15, "name": "Automotive" }
+]

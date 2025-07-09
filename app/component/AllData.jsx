@@ -2,8 +2,19 @@ import React from 'react';
 import BlogDescription from './BlogDescription';
 import Image from 'next/image';
 import Link from 'next/link';
+import path from 'path';
+import fs from 'fs';
+
+
+
+
+
+
 
 const AllData = ({ data }) => {
+ 
+
+ 
   return (
     <div>
       <article className="mb-10 pb-10 border-b border-gray-200">

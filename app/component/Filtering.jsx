@@ -1,6 +1,19 @@
 import React from 'react'
+import fs from "fs"
+import path  from 'path'
+import Link from 'next/link';
 
-const Filtering = () => {
+
+const Filtering = ({  currentCategory }) => {
+    
+
+     const filePath = path.join(process.cwd(), 'app','categories.json');
+      const jsonData = fs.readFileSync(filePath, 'utf-8');
+      const blogs = JSON.parse(jsonData);
+
+    
+
+
   return (
     <>
 
@@ -9,14 +22,28 @@ const Filtering = () => {
                         <div className="mb-8">
                             <h3 className="text-lg font-bold mb-4">Discover more of what matters to you</h3>
                             <div className="flex flex-wrap gap-2">
-                                <a href="#" className="bg-green-200 font-medium px-4 py-2 rounded-full text-sm hover:bg-gray-200 transition-colors">Programming</a>
-                                <a href="#" className="bg-gray-100 px-4 py-2 rounded-full text-sm hover:bg-gray-200 transition-colors">Data Science</a>
-                                <a href="#" className="bg-gray-100 px-4 py-2 rounded-full text-sm hover:bg-gray-200 transition-colors">Technology</a>
-                                <a href="#" className="bg-gray-100 px-4 py-2 rounded-full text-sm hover:bg-gray-200 transition-colors">Self Improvement</a>
-                                <a href="#" className="bg-gray-100 px-4 py-2 rounded-full text-sm hover:bg-gray-200 transition-colors">Writing</a>
-                                <a href="#" className="bg-gray-100 px-4 py-2 rounded-full text-sm hover:bg-gray-200 transition-colors">Relationships</a>
-                                <a href="#" className="bg-gray-100 px-4 py-2 rounded-full text-sm hover:bg-gray-200 transition-colors">Machine Learning</a>
-                                <a href="#" className="bg-gray-100 px-4 py-2 rounded-full text-sm hover:bg-gray-200 transition-colors">Productivity</a>
+
+
+                                
+
+        {blogs.map((cat, index) => (
+              <Link
+                key={index}
+                href={`/?category=${cat.name}`}
+                className={`${
+                  currentCategory === cat.name ? 'bg-green-600 text-white' : 'bg-green-200'
+                } font-medium px-4 py-2 rounded-full text-sm hover:bg-gray-200`}
+              >
+                {cat.name}
+              </Link>
+            ))}
+
+
+                             
+
+
+
+                               
                             </div>
                         </div>
 
